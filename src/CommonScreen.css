@@ -1,0 +1,35 @@
+div > h1 {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  margin: 0px;
+}
+
+.screen {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.screen-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  left: 15%;
+  position: absolute;
+}
+
+.screen-music {
+  position: relative;
+  display: flex;
+}
+
+#music {
+  width: 90%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 15px;
+  position: relative;
+}

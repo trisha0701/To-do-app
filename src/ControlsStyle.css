@@ -1,0 +1,68 @@
+.controls-container {
+  width: 230px;
+  height: 230px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px auto 0 auto;
+  border-radius: 50%;
+}
+
+.circle-container {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-button {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #a0a0a0;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.menu-button {
+  position: absolute;
+  top: 15px;
+}
+
+.rewind-button {
+  position: absolute;
+  left: 20px;
+  top: 110px;
+}
+
+.forward-button {
+  position: absolute;
+  right: 20px;
+  top: 110px;
+}
+
+.play-button {
+  position: absolute;
+  left: 110px;
+  bottom: 20px;
+}
+
+.controls-container img {
+  width: 20px;
+  height: auto;
+}
+
+button {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}

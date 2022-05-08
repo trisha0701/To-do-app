@@ -1,0 +1,10 @@
+.App {
+  margin: 3% auto 0px auto;
+  position: relative;
+  width: 350px;
+  height: 580px;
+  padding-top: 25px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 40px;
+  box-shadow: inset 0px 0px 40px black;
+}
